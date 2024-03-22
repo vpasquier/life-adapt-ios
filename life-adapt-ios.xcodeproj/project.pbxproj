@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E78715662BAE14DA0065BE7A /* life_adapt_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715652BAE14DA0065BE7A /* life_adapt_iosApp.swift */; };
+		E78715682BAE14DA0065BE7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715672BAE14DA0065BE7A /* ContentView.swift */; };
+		E787156A2BAE14DB0065BE7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78715692BAE14DB0065BE7A /* Assets.xcassets */; };
+		E787156D2BAE14DB0065BE7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E787156C2BAE14DB0065BE7A /* Preview Assets.xcassets */; };
+		E78715772BAE14DB0065BE7A /* life_adapt_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715762BAE14DB0065BE7A /* life_adapt_iosTests.swift */; };
+		E78715812BAE14DB0065BE7A /* life_adapt_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715802BAE14DB0065BE7A /* life_adapt_iosUITests.swift */; };
+		E78715832BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715822BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E78715732BAE14DB0065BE7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E787155A2BAE14D90065BE7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78715612BAE14DA0065BE7A;
+			remoteInfo = "life-adapt-ios";
+		};
+		E787157D2BAE14DB0065BE7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E787155A2BAE14D90065BE7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78715612BAE14DA0065BE7A;
+			remoteInfo = "life-adapt-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E78715622BAE14DA0065BE7A /* life-adapt-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "life-adapt-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78715652BAE14DA0065BE7A /* life_adapt_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosApp.swift; sourceTree = "<group>"; };
+		E78715672BAE14DA0065BE7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E78715692BAE14DB0065BE7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E787156C2BAE14DB0065BE7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E78715722BAE14DB0065BE7A /* life-adapt-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-adapt-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78715762BAE14DB0065BE7A /* life_adapt_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosTests.swift; sourceTree = "<group>"; };
+		E787157C2BAE14DB0065BE7A /* life-adapt-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-adapt-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78715802BAE14DB0065BE7A /* life_adapt_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosUITests.swift; sourceTree = "<group>"; };
+		E78715822BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E787155F2BAE14DA0065BE7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E787156F2BAE14DB0065BE7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78715792BAE14DB0065BE7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E78715592BAE14D90065BE7A = {
+			isa = PBXGroup;
+			children = (
+				E78715642BAE14DA0065BE7A /* life-adapt-ios */,
+				E78715752BAE14DB0065BE7A /* life-adapt-iosTests */,
+				E787157F2BAE14DB0065BE7A /* life-adapt-iosUITests */,
+				E78715632BAE14DA0065BE7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E78715632BAE14DA0065BE7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78715622BAE14DA0065BE7A /* life-adapt-ios.app */,
+				E78715722BAE14DB0065BE7A /* life-adapt-iosTests.xctest */,
+				E787157C2BAE14DB0065BE7A /* life-adapt-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E78715642BAE14DA0065BE7A /* life-adapt-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E78715652BAE14DA0065BE7A /* life_adapt_iosApp.swift */,
+				E78715672BAE14DA0065BE7A /* ContentView.swift */,
+				E78715692BAE14DB0065BE7A /* Assets.xcassets */,
+				E787156B2BAE14DB0065BE7A /* Preview Content */,
+			);
+			path = "life-adapt-ios";
+			sourceTree = "<group>";
+		};
+		E787156B2BAE14DB0065BE7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E787156C2BAE14DB0065BE7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E78715752BAE14DB0065BE7A /* life-adapt-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E78715762BAE14DB0065BE7A /* life_adapt_iosTests.swift */,
+			);
+			path = "life-adapt-iosTests";
+			sourceTree = "<group>";
+		};
+		E787157F2BAE14DB0065BE7A /* life-adapt-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E78715802BAE14DB0065BE7A /* life_adapt_iosUITests.swift */,
+				E78715822BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift */,
+			);
+			path = "life-adapt-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E78715612BAE14DA0065BE7A /* life-adapt-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78715862BAE14DB0065BE7A /* Build configuration list for PBXNativeTarget "life-adapt-ios" */;
+			buildPhases = (
+				E787155E2BAE14DA0065BE7A /* Sources */,
+				E787155F2BAE14DA0065BE7A /* Frameworks */,
+				E78715602BAE14DA0065BE7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "life-adapt-ios";
+			productName = "life-adapt-ios";
+			productReference = E78715622BAE14DA0065BE7A /* life-adapt-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E78715712BAE14DB0065BE7A /* life-adapt-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78715892BAE14DB0065BE7A /* Build configuration list for PBXNativeTarget "life-adapt-iosTests" */;
+			buildPhases = (
+				E787156E2BAE14DB0065BE7A /* Sources */,
+				E787156F2BAE14DB0065BE7A /* Frameworks */,
+				E78715702BAE14DB0065BE7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78715742BAE14DB0065BE7A /* PBXTargetDependency */,
+			);
+			name = "life-adapt-iosTests";
+			productName = "life-adapt-iosTests";
+			productReference = E78715722BAE14DB0065BE7A /* life-adapt-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E787157B2BAE14DB0065BE7A /* life-adapt-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E787158C2BAE14DB0065BE7A /* Build configuration list for PBXNativeTarget "life-adapt-iosUITests" */;
+			buildPhases = (
+				E78715782BAE14DB0065BE7A /* Sources */,
+				E78715792BAE14DB0065BE7A /* Frameworks */,
+				E787157A2BAE14DB0065BE7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E787157E2BAE14DB0065BE7A /* PBXTargetDependency */,
+			);
+			name = "life-adapt-iosUITests";
+			productName = "life-adapt-iosUITests";
+			productReference = E787157C2BAE14DB0065BE7A /* life-adapt-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E787155A2BAE14D90065BE7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E78715612BAE14DA0065BE7A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E78715712BAE14DB0065BE7A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E78715612BAE14DA0065BE7A;
+					};
+					E787157B2BAE14DB0065BE7A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E78715612BAE14DA0065BE7A;
+					};
+				};
+			};
+			buildConfigurationList = E787155D2BAE14D90065BE7A /* Build configuration list for PBXProject "life-adapt-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E78715592BAE14D90065BE7A;
+			productRefGroup = E78715632BAE14DA0065BE7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E78715612BAE14DA0065BE7A /* life-adapt-ios */,
+				E78715712BAE14DB0065BE7A /* life-adapt-iosTests */,
+				E787157B2BAE14DB0065BE7A /* life-adapt-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E78715602BAE14DA0065BE7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E787156D2BAE14DB0065BE7A /* Preview Assets.xcassets in Resources */,
+				E787156A2BAE14DB0065BE7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78715702BAE14DB0065BE7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E787157A2BAE14DB0065BE7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E787155E2BAE14DA0065BE7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78715682BAE14DA0065BE7A /* ContentView.swift in Sources */,
+				E78715662BAE14DA0065BE7A /* life_adapt_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E787156E2BAE14DB0065BE7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78715772BAE14DB0065BE7A /* life_adapt_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78715782BAE14DB0065BE7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78715812BAE14DB0065BE7A /* life_adapt_iosUITests.swift in Sources */,
+				E78715832BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E78715742BAE14DB0065BE7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E78715612BAE14DA0065BE7A /* life-adapt-ios */;
+			targetProxy = E78715732BAE14DB0065BE7A /* PBXContainerItemProxy */;
+		};
+		E787157E2BAE14DB0065BE7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E78715612BAE14DA0065BE7A /* life-adapt-ios */;
+			targetProxy = E787157D2BAE14DB0065BE7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E78715842BAE14DB0065BE7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E78715852BAE14DB0065BE7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E78715872BAE14DB0065BE7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"life-adapt-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 2MDFY8PK3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LifeAdapt.life-adapt-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E78715882BAE14DB0065BE7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"life-adapt-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 2MDFY8PK3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LifeAdapt.life-adapt-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E787158A2BAE14DB0065BE7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MDFY8PK3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LifeAdapt.life-adapt-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/life-adapt-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/life-adapt-ios";
+			};
+			name = Debug;
+		};
+		E787158B2BAE14DB0065BE7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MDFY8PK3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LifeAdapt.life-adapt-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/life-adapt-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/life-adapt-ios";
+			};
+			name = Release;
+		};
+		E787158D2BAE14DB0065BE7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MDFY8PK3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LifeAdapt.life-adapt-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "life-adapt-ios";
+			};
+			name = Debug;
+		};
+		E787158E2BAE14DB0065BE7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2MDFY8PK3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LifeAdapt.life-adapt-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "life-adapt-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E787155D2BAE14D90065BE7A /* Build configuration list for PBXProject "life-adapt-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78715842BAE14DB0065BE7A /* Debug */,
+				E78715852BAE14DB0065BE7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78715862BAE14DB0065BE7A /* Build configuration list for PBXNativeTarget "life-adapt-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78715872BAE14DB0065BE7A /* Debug */,
+				E78715882BAE14DB0065BE7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78715892BAE14DB0065BE7A /* Build configuration list for PBXNativeTarget "life-adapt-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E787158A2BAE14DB0065BE7A /* Debug */,
+				E787158B2BAE14DB0065BE7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E787158C2BAE14DB0065BE7A /* Build configuration list for PBXNativeTarget "life-adapt-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E787158D2BAE14DB0065BE7A /* Debug */,
+				E787158E2BAE14DB0065BE7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E787155A2BAE14D90065BE7A /* Project object */;
+}
