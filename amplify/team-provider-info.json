@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lifeadaptbackend-staging-223129-authRole",
+      "UnauthRoleArn": "arn:aws:iam::966686309127:role/amplify-lifeadaptbackend-staging-223129-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::966686309127:role/amplify-lifeadaptbackend-staging-223129-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-lifeadaptbackend-staging-223129-deployment",
+      "UnauthRoleName": "amplify-lifeadaptbackend-staging-223129-unauthRole",
+      "StackName": "amplify-lifeadaptbackend-staging-223129",
+      "StackId": "arn:aws:cloudformation:us-east-1:966686309127:stack/amplify-lifeadaptbackend-staging-223129/ed7e0ce0-e89b-11ee-80e2-0e082fe8b7b7",
+      "AmplifyAppId": "d3jq1zx778g0qj"
+    },
+    "categories": {
+      "function": {
+        "lifeadaptbackendf511c7e2": {
+          "deploymentBucketName": "amplify-lifeadaptbackend-staging-223129-deployment",
+          "s3Key": "amplify-builds/lifeadaptbackendf511c7e2-714275516d6d684c4174-build.zip"
+        }
+      },
+      "api": {
+        "lifeadapt": {}
+      }
+    }
+  }
+}

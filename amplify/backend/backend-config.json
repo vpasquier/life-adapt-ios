@@ -1,0 +1,44 @@
+{
+  "api": {
+    "lifeadapt": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "lifeadaptbackendf511c7e2"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "lifeadaptbackendf511c7e2": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_lifeadaptbackendf511c7e2_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "lifeadaptbackendf511c7e2"
+        }
+      ]
+    },
+    "AMPLIFY_function_lifeadaptbackendf511c7e2_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "lifeadaptbackendf511c7e2"
+        }
+      ]
+    }
+  }
+}
