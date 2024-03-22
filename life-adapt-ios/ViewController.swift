@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startButtonPressed() {
-        print("something")
         if isCollectingData {
             stopAccelerometerUpdates()
         } else {
