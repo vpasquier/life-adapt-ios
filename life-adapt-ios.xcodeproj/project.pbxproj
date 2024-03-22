@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310C6A1B9844226455326374 /* Pods_life_adapt_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345723E2540D5F4FADD58D4F /* Pods_life_adapt_ios.framework */; };
+		E7262B412BAE2E090096999C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7262B402BAE2E090096999C /* Coordinator.swift */; };
 		E78715662BAE14DA0065BE7A /* life_adapt_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715652BAE14DA0065BE7A /* life_adapt_iosApp.swift */; };
 		E78715682BAE14DA0065BE7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715672BAE14DA0065BE7A /* ContentView.swift */; };
 		E787156A2BAE14DB0065BE7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78715692BAE14DB0065BE7A /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		E78715772BAE14DB0065BE7A /* life_adapt_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715762BAE14DB0065BE7A /* life_adapt_iosTests.swift */; };
 		E78715812BAE14DB0065BE7A /* life_adapt_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715802BAE14DB0065BE7A /* life_adapt_iosUITests.swift */; };
 		E78715832BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715822BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift */; };
+		E78715902BAE1ADD0065BE7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787158F2BAE1ADD0065BE7A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		345723E2540D5F4FADD58D4F /* Pods_life_adapt_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_life_adapt_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6187BE75AD11959775BAC19C /* Pods-life-adapt-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-life-adapt-ios.debug.xcconfig"; path = "Target Support Files/Pods-life-adapt-ios/Pods-life-adapt-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		A069F22BDD16404DD1D63163 /* Pods-life-adapt-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-life-adapt-ios.release.xcconfig"; path = "Target Support Files/Pods-life-adapt-ios/Pods-life-adapt-ios.release.xcconfig"; sourceTree = "<group>"; };
+		E7262B402BAE2E090096999C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		E78715622BAE14DA0065BE7A /* life-adapt-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "life-adapt-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78715652BAE14DA0065BE7A /* life_adapt_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosApp.swift; sourceTree = "<group>"; };
 		E78715672BAE14DA0065BE7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 		E787157C2BAE14DB0065BE7A /* life-adapt-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-adapt-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78715802BAE14DB0065BE7A /* life_adapt_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosUITests.swift; sourceTree = "<group>"; };
 		E78715822BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E787158F2BAE1ADD0065BE7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310C6A1B9844226455326374 /* Pods_life_adapt_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		384175230CBB67002D572562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345723E2540D5F4FADD58D4F /* Pods_life_adapt_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44389A447166689D69616955 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6187BE75AD11959775BAC19C /* Pods-life-adapt-ios.debug.xcconfig */,
+				A069F22BDD16404DD1D63163 /* Pods-life-adapt-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E78715592BAE14D90065BE7A = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +104,8 @@
 				E78715752BAE14DB0065BE7A /* life-adapt-iosTests */,
 				E787157F2BAE14DB0065BE7A /* life-adapt-iosUITests */,
 				E78715632BAE14DA0065BE7A /* Products */,
+				44389A447166689D69616955 /* Pods */,
+				384175230CBB67002D572562 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +126,8 @@
 				E78715672BAE14DA0065BE7A /* ContentView.swift */,
 				E78715692BAE14DB0065BE7A /* Assets.xcassets */,
 				E787156B2BAE14DB0065BE7A /* Preview Content */,
+				E787158F2BAE1ADD0065BE7A /* ViewController.swift */,
+				E7262B402BAE2E090096999C /* Coordinator.swift */,
 			);
 			path = "life-adapt-ios";
 			sourceTree = "<group>";
@@ -134,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E78715862BAE14DB0065BE7A /* Build configuration list for PBXNativeTarget "life-adapt-ios" */;
 			buildPhases = (
+				32676D2358B1BF18C1D6AB86 /* [CP] Check Pods Manifest.lock */,
 				E787155E2BAE14DA0065BE7A /* Sources */,
 				E787155F2BAE14DA0065BE7A /* Frameworks */,
 				E78715602BAE14DA0065BE7A /* Resources */,
+				F498C34C35A71D356E6A2FCD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,11 +284,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32676D2358B1BF18C1D6AB86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-life-adapt-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F498C34C35A71D356E6A2FCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-life-adapt-ios/Pods-life-adapt-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-life-adapt-ios/Pods-life-adapt-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-life-adapt-ios/Pods-life-adapt-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E787155E2BAE14DA0065BE7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7262B412BAE2E090096999C /* Coordinator.swift in Sources */,
+				E78715902BAE1ADD0065BE7A /* ViewController.swift in Sources */,
 				E78715682BAE14DA0065BE7A /* ContentView.swift in Sources */,
 				E78715662BAE14DA0065BE7A /* life_adapt_iosApp.swift in Sources */,
 			);
@@ -416,6 +492,7 @@
 		};
 		E78715872BAE14DB0065BE7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6187BE75AD11959775BAC19C /* Pods-life-adapt-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,6 +501,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"life-adapt-ios/Preview Content\"";
 				DEVELOPMENT_TEAM = 2MDFY8PK3W;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -445,6 +523,7 @@
 		};
 		E78715882BAE14DB0065BE7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A069F22BDD16404DD1D63163 /* Pods-life-adapt-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +532,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"life-adapt-ios/Preview Content\"";
 				DEVELOPMENT_TEAM = 2MDFY8PK3W;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

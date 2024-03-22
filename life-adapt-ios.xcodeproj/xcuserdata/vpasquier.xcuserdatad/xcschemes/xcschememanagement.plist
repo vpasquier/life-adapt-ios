@@ -7,7 +7,25 @@
 		<key>life-adapt-ios.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E78715612BAE14DA0065BE7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E78715712BAE14DB0065BE7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E787157B2BAE14DB0065BE7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
