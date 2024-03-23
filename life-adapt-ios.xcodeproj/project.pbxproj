@@ -10,11 +10,11 @@
 		310C6A1B9844226455326374 /* Pods_life_adapt_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345723E2540D5F4FADD58D4F /* Pods_life_adapt_ios.framework */; };
 		E7262B412BAE2E090096999C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7262B402BAE2E090096999C /* Coordinator.swift */; };
 		E7262B432BAE8BA50096999C /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7262B422BAE8BA50096999C /* NotificationNames.swift */; };
+		E7262B472BAF374F0096999C /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7262B462BAF374F0096999C /* ViewControllerTests.swift */; };
 		E78715662BAE14DA0065BE7A /* life_adapt_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715652BAE14DA0065BE7A /* life_adapt_iosApp.swift */; };
 		E78715682BAE14DA0065BE7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715672BAE14DA0065BE7A /* ContentView.swift */; };
 		E787156A2BAE14DB0065BE7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78715692BAE14DB0065BE7A /* Assets.xcassets */; };
 		E787156D2BAE14DB0065BE7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E787156C2BAE14DB0065BE7A /* Preview Assets.xcassets */; };
-		E78715772BAE14DB0065BE7A /* life_adapt_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715762BAE14DB0065BE7A /* life_adapt_iosTests.swift */; };
 		E78715812BAE14DB0065BE7A /* life_adapt_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715802BAE14DB0065BE7A /* life_adapt_iosUITests.swift */; };
 		E78715832BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715822BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift */; };
 		E78715902BAE1ADD0065BE7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787158F2BAE1ADD0065BE7A /* ViewController.swift */; };
@@ -43,13 +43,13 @@
 		A069F22BDD16404DD1D63163 /* Pods-life-adapt-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-life-adapt-ios.release.xcconfig"; path = "Target Support Files/Pods-life-adapt-ios/Pods-life-adapt-ios.release.xcconfig"; sourceTree = "<group>"; };
 		E7262B402BAE2E090096999C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		E7262B422BAE8BA50096999C /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		E7262B462BAF374F0096999C /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		E78715622BAE14DA0065BE7A /* life-adapt-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "life-adapt-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78715652BAE14DA0065BE7A /* life_adapt_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosApp.swift; sourceTree = "<group>"; };
 		E78715672BAE14DA0065BE7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E78715692BAE14DB0065BE7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E787156C2BAE14DB0065BE7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E78715722BAE14DB0065BE7A /* life-adapt-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-adapt-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E78715762BAE14DB0065BE7A /* life_adapt_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosTests.swift; sourceTree = "<group>"; };
 		E787157C2BAE14DB0065BE7A /* life-adapt-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-adapt-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78715802BAE14DB0065BE7A /* life_adapt_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosUITests.swift; sourceTree = "<group>"; };
 		E78715822BAE14DB0065BE7A /* life_adapt_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 		E78715752BAE14DB0065BE7A /* life-adapt-iosTests */ = {
 			isa = PBXGroup;
 			children = (
-				E78715762BAE14DB0065BE7A /* life_adapt_iosTests.swift */,
+				E7262B462BAF374F0096999C /* ViewControllerTests.swift */,
 			);
 			path = "life-adapt-iosTests";
 			sourceTree = "<group>";
@@ -346,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78715772BAE14DB0065BE7A /* life_adapt_iosTests.swift in Sources */,
+				E7262B472BAF374F0096999C /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,8 +510,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -541,8 +542,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

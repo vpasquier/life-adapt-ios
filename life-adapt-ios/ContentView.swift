@@ -63,6 +63,11 @@ struct ButtonView: View {
                 .foregroundColor(.white)
                 .background(isCollectingData ? Color.red : Color.blue)
                 .cornerRadius(10)
+            Group {
+                if isCollectingData {
+                    Text("Collecting...")
+                }
+            }
         }
     }
 }
