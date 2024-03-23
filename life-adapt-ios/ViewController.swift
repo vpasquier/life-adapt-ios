@@ -50,10 +50,6 @@ class ViewController: UIViewController {
     
     func stopAccelerometerUpdates() {
         motionManager.stopAccelerometerUpdates()
-        //        UserDefaults.standard.set(accelerometerDataX, forKey: "accelerometerDataX")
-        //        UserDefaults.standard.set(accelerometerDataY, forKey: "accelerometerDataY")
-        //        UserDefaults.standard.set(accelerometerDataZ, forKey: "accelerometerDataZ")
-        //        NotificationCenter.default.post(name: .updateChartData, object: nil)
     }
     
     func plotData(accelerometerDataX: [Double], accelerometerDataY: [Double], accelerometerDataZ: [Double]) {

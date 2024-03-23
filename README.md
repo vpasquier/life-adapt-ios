@@ -18,3 +18,7 @@ Run `pod install` to install dependencies (for charts mostly)
 ## Run
 
 Open `life-adapt-ios.xcworkspace` in XCode and run the app from there on your device (accelerometer data collection requires a physical device, doesn't work with simulators)
+
+## Archive
+
+You may use the archive [here](<life-adapt-ios 3-23-24, 02.01.xcarchive>)
