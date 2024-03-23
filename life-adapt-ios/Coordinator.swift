@@ -1,3 +1,4 @@
+// Custom coordinator
 import SwiftUI
 
 class Coordinator: ObservableObject {

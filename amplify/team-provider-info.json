@@ -15,7 +15,7 @@
       "function": {
         "lifeadaptbackendf511c7e2": {
           "deploymentBucketName": "amplify-lifeadaptbackend-staging-223129-deployment",
-          "s3Key": "amplify-builds/lifeadaptbackendf511c7e2-714275516d6d684c4174-build.zip"
+          "s3Key": "amplify-builds/lifeadaptbackendf511c7e2-416a6c387456456a4935-build.zip"
         }
       },
       "api": {

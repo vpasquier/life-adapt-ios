@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		310C6A1B9844226455326374 /* Pods_life_adapt_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345723E2540D5F4FADD58D4F /* Pods_life_adapt_ios.framework */; };
 		E7262B412BAE2E090096999C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7262B402BAE2E090096999C /* Coordinator.swift */; };
+		E7262B432BAE8BA50096999C /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7262B422BAE8BA50096999C /* NotificationNames.swift */; };
 		E78715662BAE14DA0065BE7A /* life_adapt_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715652BAE14DA0065BE7A /* life_adapt_iosApp.swift */; };
 		E78715682BAE14DA0065BE7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78715672BAE14DA0065BE7A /* ContentView.swift */; };
 		E787156A2BAE14DB0065BE7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78715692BAE14DB0065BE7A /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		6187BE75AD11959775BAC19C /* Pods-life-adapt-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-life-adapt-ios.debug.xcconfig"; path = "Target Support Files/Pods-life-adapt-ios/Pods-life-adapt-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		A069F22BDD16404DD1D63163 /* Pods-life-adapt-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-life-adapt-ios.release.xcconfig"; path = "Target Support Files/Pods-life-adapt-ios/Pods-life-adapt-ios.release.xcconfig"; sourceTree = "<group>"; };
 		E7262B402BAE2E090096999C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E7262B422BAE8BA50096999C /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
 		E78715622BAE14DA0065BE7A /* life-adapt-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "life-adapt-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78715652BAE14DA0065BE7A /* life_adapt_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_adapt_iosApp.swift; sourceTree = "<group>"; };
 		E78715672BAE14DA0065BE7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				E787156B2BAE14DB0065BE7A /* Preview Content */,
 				E787158F2BAE1ADD0065BE7A /* ViewController.swift */,
 				E7262B402BAE2E090096999C /* Coordinator.swift */,
+				E7262B422BAE8BA50096999C /* NotificationNames.swift */,
 			);
 			path = "life-adapt-ios";
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			files = (
 				E7262B412BAE2E090096999C /* Coordinator.swift in Sources */,
 				E78715902BAE1ADD0065BE7A /* ViewController.swift in Sources */,
+				E7262B432BAE8BA50096999C /* NotificationNames.swift in Sources */,
 				E78715682BAE14DA0065BE7A /* ContentView.swift in Sources */,
 				E78715662BAE14DA0065BE7A /* life_adapt_iosApp.swift in Sources */,
 			);
